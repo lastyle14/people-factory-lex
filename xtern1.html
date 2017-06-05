@@ -12,18 +12,32 @@
 
     <section> 
     <div>
-       <form>
+       <form id = "personForm">
         <p>
-            <label for=""> name </label>
+            <label for=""> Name </label>
             <input type="text" name="personName">
         </p>
 
         <p>
-            <button type="submit">Go</button>
+            <label for=""> Age </label>
+            <input type="number" name="personNumber"
         </p>
+
+        <p>
+            <label for=""> Birth Month </label>
+            <input type="month" name="personMonth"
+        </p>
+
+        <p>
+            <button onclick="changeColor()">submit</button>
+        </p>
+
+        
+
        </form> 
     </div> 
     </section>
     <script src="xtern1.js">
+    </script>
   </body>
 </html>
